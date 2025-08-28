@@ -13,6 +13,10 @@
 <img width="1339" height="541" alt="Image" src="https://github.com/user-attachments/assets/acb72bc4-36db-4b24-9d50-da0af9559607" />
 
 <H2>AFTER</H2>
+<img width="1316" height="645" alt="Image" src="https://github.com/user-attachments/assets/29948720-bffe-442c-b350-aae3bcd521b1" />
+<img width="1346" height="603" alt="Image" src="https://github.com/user-attachments/assets/7906f4f9-6274-4311-923a-ae158eb8c52b" />
+<img width="1347" height="522" alt="Image" src="https://github.com/user-attachments/assets/ff82a031-d4ef-4ae4-bc1a-a0b6b14f0d5b" />
+
 
 <p>BEFORE vs AFTER Analysis
   
