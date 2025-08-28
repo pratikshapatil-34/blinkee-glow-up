@@ -22,14 +22,14 @@
   
 🎨 Visual Design Improvements
 
-**BEFORE**: <a href=https://blinkee.com/"></a>
+**BEFORE**: <a href="https://blinkee.com/"></a>
 
 Basic, dated design with heavy text strokes
 Primary colors without sophistication
 Poor visual hierarchy
 Standard grid layout
 
-**AFTER**:
+**AFTER**: <a href="https://blinke-glow-up.vercel.app/"></a>
 
 Modern gradient system (purple → pink → yellow)
 Sophisticated color palette with glow effects
