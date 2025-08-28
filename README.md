@@ -18,7 +18,7 @@
   
 🎨 Visual Design Improvements
 
-**BEFORE**:
+**BEFORE**: <a href=https://blinkee.com/"></a>
 
 Basic, dated design with heavy text strokes
 Primary colors without sophistication
