@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, ShoppingCart, Heart } from "lucide-react";
+import ledPinBadge from "@/assets/led-pin-badge.webp";
+import ledKeychainFlashlight from "@/assets/led-keychain-flashlight.webp";
+import blueDevilHorns from "@/assets/blue-devil-horns.webp";
+import ledFlyingHelicopter from "@/assets/led-flying-helicopter.webp";
 
 const ProductShowcase = () => {
   const products = [
@@ -10,7 +14,7 @@ const ProductShowcase = () => {
       name: "Custom LED Flashing Blinky Light Pins",
       price: "$1.44",
       originalPrice: "$2.00",
-      image: "/api/placeholder/300/300",
+      image: ledPinBadge,
       rating: 4.8,
       reviews: 124,
       badge: "Best Seller",
@@ -21,7 +25,7 @@ const ProductShowcase = () => {
       name: "Black Light LED Keychain Flashlight",
       price: "$0.99",
       originalPrice: "$1.50",
-      image: "/api/placeholder/300/300",
+      image: ledKeychainFlashlight,
       rating: 4.6,
       reviews: 89,
       badge: "Popular",
@@ -32,7 +36,7 @@ const ProductShowcase = () => {
       name: "Light Up Devil Horns Blue",
       price: "$2.59",
       originalPrice: "$3.99",
-      image: "/api/placeholder/300/300",
+      image: blueDevilHorns,
       rating: 4.9,
       reviews: 156,
       badge: "New",
@@ -43,7 +47,7 @@ const ProductShowcase = () => {
       name: "Slingshot Flying Helicopter LED",
       price: "$3.99",
       originalPrice: "$5.99",
-      image: "/api/placeholder/300/300",
+      image: ledFlyingHelicopter,
       rating: 4.7,
       reviews: 203,
       badge: "Sale",
@@ -71,12 +75,12 @@ const ProductShowcase = () => {
             <Card key={product.id} className="group hover:shadow-card-enhanced transition-all duration-300 hover:-translate-y-2 border-border/50">
               <CardHeader className="p-0">
                 <div className="relative overflow-hidden rounded-t-lg">
-                  <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
-                    <div className="w-24 h-24 bg-gradient-primary rounded-full flex items-center justify-center">
-                      <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                        <div className="w-8 h-8 bg-gradient-secondary rounded-full animate-pulse"></div>
-                      </div>
-                    </div>
+                  <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center p-4">
+                    <img 
+                      src={product.image} 
+                      alt={product.name}
+                      className="w-full h-full object-contain rounded-lg"
+                    />
                   </div>
                   <Badge 
                     className={`absolute top-3 left-3 ${
